@@ -71,6 +71,7 @@ font-size: 50px;
 main{
     max-width: 1140px;
     margin: 0 auto;
+    font-family: "Azeret Mono", monospace;
 }
 .development{
     padding: 80px;
@@ -122,11 +123,58 @@ text-align: center;
 padding: 12px 20px 12px 20px;
 gap: 10px;
 }
-/*  */
+/* inspiration section */
 .video{
     width: 1076px;
     height: 550px;
     border-radius: 16px;
     margin-top: 30px;
 
+}
+/* my current target section */
+.current-target{
+    margin-top: 90px;
+}
+.target{
+    display: flex;
+    gap: 30px;
+}
+.target-text{
+    text-align: center;
+    justify-content: center;
+}
+.target-descriotion{
+    line-height: 26px;
+    margin: 24px 0px;
+    width: 850px;
+    height: 50px;
+    margin-left: 120px;
+}
+.html{
+    width: 350px;
+    height: 230px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+    margin-top: 20px;
+}
+.css{
+    width: 350px;
+    height: 230px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+    margin-top: 20px;
+}
+.js{
+    width: 350px;
+    height: 230px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+    margin-top: 20px;
+}
+a{
+    color: black;
+    font-weight: 700;
 }
