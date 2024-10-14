@@ -178,3 +178,70 @@ a{
     color: black;
     font-weight: 700;
 }
+/* footer section */
+footer{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-family: "Azeret Mono", monospace;
+}
+.footer{ 
+    /* background-image: url(../images/handshake.jpg); */
+   
+    background-repeat: no-repeat;
+    padding: 120px 300px ;
+    background-position: center;
+    border-radius: 16px;
+    background-size: cover;
+    background: url(../images/handshake.jpg), rgba(0, 0, 0, 0.2);
+}
+.footer-title{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+
+}
+.footer-description{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+.form{
+    display: flex;
+    font-family: "Azeret Mono", monospace;
+    gap: 10px;
+}
+footer input[type="text"]{
+    width: 550px;
+    height: 50px;
+    border-radius: 8px;
+    background-color:rgb(255, 255, 255) ;
+    margin-bottom: 10px;
+    border: none;
+}
+.footer-btn{
+    width: 120px;
+    height: 53px;
+    padding: 17px 20px;
+    gap: 10px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    background-color:rgb(255 ,255, 255);
+    border-radius: 8px;
+    border: none;
+}
+.footer-last{
+    display: flex;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    justify-content: space-between;
+    margin-top: 60px;
+    padding: 10px;
+}
