@@ -253,7 +253,7 @@ footer{
 }
 .footer{ 
     /* background-image: url(../images/handshake.jpg); */
-   
+   margin-top: 100px;
     background-repeat: no-repeat;
     padding: 120px 300px ;
     background-position: center;
@@ -281,7 +281,7 @@ footer{
     font-family: "Azeret Mono", monospace;
     gap: 10px;
 }
-footer input[type="text"]{
+.footer input[type="text"]{
     width: 550px;
     height: 50px;
     border-radius: 8px;
