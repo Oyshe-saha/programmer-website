@@ -22,6 +22,22 @@
   
 
 /* banner section */
+nav{
+    justify-content: space-between;
+    color: black;
+}
+.nav{
+    text-align: center;
+    justify-content: space-between;
+}
+nav ul li {
+    color: black;
+    border: none;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+}
 .header{
     max-width:1440px;
     height: 650px;
@@ -30,6 +46,7 @@
     align-items: center;
     justify-content: center;
     padding: 10px 250px;
+    margin: 50px;
 }
 .banner-img{
     width: 241px; 
@@ -178,6 +195,53 @@ a{
     color: black;
     font-weight: 700;
 }
+
+/* my next target section */
+.next-target{
+    gap: 10px;
+    margin-top: 0px;
+}
+.next-target-description {
+    padding: 0px 130px;
+}
+.react,.node,.mongo{
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 15px;
+margin-top: 20px;
+}
+.react-im,.node-im,.mongo-im{
+width: 400px; 
+height: 100px;
+text-align: center;
+justify-content: center;
+padding-top: 30px;
+}
+.react-img{ 
+    width: 94.78px;
+    height: 84.41px;
+
+}
+.node-img{
+    width: 90.3px;
+    height: 87.75px;
+    
+}
+.mongo-img{
+    width: 108px;
+    height: 108px;
+    
+ } 
+
+
+
+
+
+
+
 /* footer section */
 footer{
     max-width: 1140px;
